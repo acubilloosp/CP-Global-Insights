@@ -5,30 +5,105 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cubillos Peñailillo Advisory</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f8f9fa;
+      color: #212529;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #ffffff;
+      padding: 3rem 1rem;
+      text-align: center;
+      border-bottom: 1px solid #dee2e6;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: #1a1a1a;
+    }
+    header p {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: #6c757d;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 2rem 0 0 0;
+    }
+    nav li {
+      margin: 0 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: 600;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #343a40;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #6c757d;
+      border-top: 1px solid #dee2e6;
+    }
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>Cubillos Peñailillo Advisory</h1>
     <p>Asesoría en Finanzas Personales & Consultoría en Analítica de Datos</p>
+    <nav>
+      <ul>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
   </header>
 
   <section id="servicios">
     <h2>Servicios</h2>
     <ul>
-      <li>Asesoría en Finanzas Personales</li>
-      <li>Consultoría en Datos y Visualización</li>
-      <li>Charlas y Talleres de Educación Financiera</li>
+      <li>✔️ Asesoría en Finanzas Personales</li>
+      <li>✔️ Consultoría en Datos y Visualización</li>
+      <li>✔️ Charlas y Talleres de Educación Financiera</li>
     </ul>
   </section>
 
   <section id="experiencia">
     <h2>Experiencia</h2>
-    <p>He trabajado con Casa Moda, Prisca y ProaConsulting.</p>
+    <p>He trabajado con Casa Moda, Prisca y actualmente desarrollo una consultoría para ProaConsulting sobre ProaLab. Esta experiencia combina economía, datos y estrategias para mejorar procesos.</p>
   </section>
 
   <section id="contacto">
     <h2>Contacto</h2>
-    <p>¿Te interesa una asesoría? Escríbeme a <strong>contacto@tubolsilloimporta.cl</strong></p>
+    <p>¿Te interesa una asesoría o colaboración? Escríbeme a <strong>contacto@tubolsilloimporta.cl</strong></p>
   </section>
 
   <footer>
