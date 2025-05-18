@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  margin: 40px;
+  background: #f9f9f9;
+  color: #333;
+}
+header, section, footer {
+  margin-bottom: 30px;
+}
+h1 {
+  font-size: 2em;
+  color: #1a1a1a;
+}
